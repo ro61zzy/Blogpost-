@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
+//set up blog schema
 const blogSchema = new Schema({
   title: String,
   body: String,
